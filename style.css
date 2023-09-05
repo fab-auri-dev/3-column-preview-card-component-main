@@ -129,6 +129,24 @@ button {
     color: var( --very-dark-cyan );
 }
 
+.sedans
+.col-preview-btn:hover {
+    background-color: var( --bright-orange );
+    color: var( --transparent-white-p );
+}
+
+.suvs
+.col-preview-btn:hover {
+    background-color: var( --dark-cyan );
+    color: var( --transparent-white-p );
+}
+
+.luxury
+.col-preview-btn:hover {
+    background-color: var( --very-dark-cyan );
+    color: var( --transparent-white-p );
+}
+
 
 @media only screen and ( max-width: 800px ) {
     .three-col-preview-card-wrapper {
