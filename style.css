@@ -58,7 +58,7 @@ button {
 }
 
 .col-preview-content {
-    height: 25rem;
+    height: 27rem;
 
     display: flex;
     flex-direction: column;
@@ -108,10 +108,11 @@ button {
 }
 
 .col-preview-btn {
+    transition: background .25s;
     padding: 1rem 2rem;
-
     border-radius: 1.5rem;
-    background-color: var( --very-light-gray-bg );
+    background-color: var(--very-light-gray-bg );
+    border: 0.1rem solid transparent;
 }
 
 .sedans
