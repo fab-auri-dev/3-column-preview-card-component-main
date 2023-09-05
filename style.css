@@ -133,18 +133,21 @@ button {
 .col-preview-btn:hover {
     background-color: var( --bright-orange );
     color: var( --transparent-white-p );
+    border: 1px solid var( --transparent-white-p );
 }
 
 .suvs
 .col-preview-btn:hover {
     background-color: var( --dark-cyan );
     color: var( --transparent-white-p );
+    border: 1px solid var( --transparent-white-p );
 }
 
 .luxury
 .col-preview-btn:hover {
     background-color: var( --very-dark-cyan );
     color: var( --transparent-white-p );
+    border: 1px solid var( --transparent-white-p );
 }
 
 
